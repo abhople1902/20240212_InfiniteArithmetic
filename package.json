@@ -1,0 +1,18 @@
+{
+  "name": "infinite_arithmetic",
+  "version": "0.0.1",
+  "description": "My implementation of a Integral type with infinite precision.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "Arithmetic",
+    "Operations",
+    "Infinite",
+    "Precision"
+  ],
+  "author": "Puran B Kalapala",
+  "license": "ISC"
+}
