@@ -1,4 +1,4 @@
-const { testInfiniteNumberConstruction } = require("./dependencies")
+const { testInfiniteNumberConstruction } = require("./dependencies/index")
 const InfiniteNumber = require("./dependencies/InfiniteNumber")
 
 function testingFunction() {
@@ -6,7 +6,8 @@ function testingFunction() {
 
     // testInfiniteNumberConstruction(NaN)
     // testInfiniteNumberConstruction(1345789)
-    testInfiniteNumberConstruction("9876598765678987654567898765456789876545678909876546789")
+    // testInfiniteNumberConstruction({array1:"95013",array2:'00002'})  //Passing two arrays to create one object
+    testInfiniteNumberConstruction("95013")
     // testInfiniteNumberConstruction({})
     // testInfiniteNumberConstruction(new InfiniteNumber(1))
     // testInfiniteNumberConstruction(() => { console.log("abc")})

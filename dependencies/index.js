@@ -7,8 +7,10 @@ function testInfiniteNumberConstruction(inputParam) {
 
   // initializing without parameter
   let inf1 = new InfiniteNumber(inputParam)
-
-  console.log(inf1.getNumberAsString())
+  // console.log(inf1 instanceof InfiniteNumber)
+  console.log(inf1.getInternalArray())
+  console.log("\n")
+  console.log(inf1.Add())
 
 }
 
