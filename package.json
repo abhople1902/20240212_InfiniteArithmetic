@@ -13,6 +13,9 @@
     "Infinite",
     "Precision"
   ],
-  "author": "Puran B Kalapala",
-  "license": "ISC"
+  "author": "Ayush Bhople",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^5.1.0"
+  }
 }
