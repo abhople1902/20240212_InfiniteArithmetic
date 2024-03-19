@@ -10,7 +10,7 @@ class InfiniteNumber {
   _primaryInternalArray = [1]
 
   constructor(inputObject) {
-
+    let objStore = inputObject;
     console.log("Just inside the constructor " + typeof (inputObject))
 
     if (typeof (inputObject) === "number") {
@@ -163,23 +163,23 @@ class InfiniteNumber {
  * @param {Array} secondary
  * @returns {Array} result1
  */
-Sub() {
-  let primary = this._primaryInternalArray
-  let secondary = this._internalArray
-  let redFlag = MagnitudeChecker(primary, secondary)  //checking which number is greater
+Sub(objStore) {
+  let primary = this._internalArray
+  let secondary = objStore.getInternalArray();
+  // let redFlag = MagnitudeChecker(primary, secondary)  //checking which number is greater
 
   //Bringing back the original a state of arrays after addition
-  if (redFlag == 1) {
-      primary.reverse()
-      primary.pop()
-      primary.reverse()
-      // secondary.reverse()
-  } else {
-      secondary.reverse()
-      secondary.pop()
-      primary.reverse()
-      secondary.reverse()
-  }
+  // if (redFlag == 1) {
+  //     primary.reverse()
+  //     primary.pop()
+  //     primary.reverse()
+  //     // secondary.reverse()
+  // } else {
+  //     secondary.reverse()
+  //     secondary.pop()
+  //     primary.reverse()
+  //     secondary.reverse()
+  // }
 
   let result1 = new Array()
 

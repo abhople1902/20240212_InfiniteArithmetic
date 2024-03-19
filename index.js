@@ -7,7 +7,7 @@ function testingFunction() {
     // testInfiniteNumberConstruction(NaN)
     // testInfiniteNumberConstruction(1345789)
     // testInfiniteNumberConstruction({array1:"95013",array2:'00002'})  //Passing two arrays to create one object
-    testInfiniteNumberConstruction("95013")
+    testInfiniteNumberConstruction(789, 456)
     // testInfiniteNumberConstruction({})
     // testInfiniteNumberConstruction(new InfiniteNumber(1))
     // testInfiniteNumberConstruction(() => { console.log("abc")})
